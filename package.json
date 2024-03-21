@@ -1,0 +1,14 @@
+{
+  "name": "readme-generator-",
+  "version": "1.0.0",
+  "description": "This README generator made using nodejs is a command-line application designed to help users quickly create high-quality README files for their new projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+}
