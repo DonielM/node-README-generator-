@@ -1,11 +1,11 @@
 const fs = require("fs");
 const path = require('path');
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 // array of questions for user
       const promptUser = () => {
-        return inquirer.prompt([
+        return inquirer.prompt(questions = [
         {
             type: "input",
             name: "title",
@@ -14,12 +14,12 @@ const generateMarkdown = require("./utils/generateMarkdown");
         {
             type: "input",
             name: "description",
-            message: "information on how the project was created.",
+            message: "Please provide a description for the project and its purpose.",
         },
         {
             type: "input",
             name: "installation",
-            message: "Please provide installation instructions.",
+            message: "Please provide step-by-step information on how the project was created.",
         },
         {
             type: "input",
@@ -28,8 +28,8 @@ const generateMarkdown = require("./utils/generateMarkdown");
         },
         {
             type: "input",
-            name: "contributing",
-            message: "Who contributed to this project?",
+            name: "credits",
+            message: "Please provide any credits and acknowledgements.",
         },
         {
             type: "input",
@@ -78,8 +78,8 @@ const init = async () => {
   console.log("Welcome to the README Generator!");
   try {
     const answers = await promptUser();
-    const generateMarkdown = generateMarkdown(answers);
-    writeToFile("README.md", generateMarkdown);
+    const markdownContent = await generateMarkdown(answers);
+    writeToFile("README.md", markdownContent);
     console.log("Your README has been generated!");
 } catch (error) {
     console.log(error);
