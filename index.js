@@ -14,7 +14,7 @@ return inquirer.prompt(questions = [
         {
             type: "input",
             name: "description",
-            message: "Please provide a description for the project and its purpose.",
+            message: "Please provide a description of the inspiration for the project and its purpose.",
         },
         {
             type: "input",
@@ -29,7 +29,7 @@ return inquirer.prompt(questions = [
         {
             type: "input",
             name: "credits",
-            message: "Please provide any credits and acknowledgements.",
+            message: "Please provide any credits or acknowledgements.",
         },
         {
             type: "input",
