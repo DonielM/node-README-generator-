@@ -14,7 +14,7 @@ return inquirer.prompt(questions = [
         {
             type: "input",
             name: "description",
-            message: "Please provide a description of the inspiration for the project and its purpose.",
+            message: "Please provide a description for the project and its purpose.",
         },
         {
             type: "input",

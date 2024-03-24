@@ -1,26 +1,15 @@
 {
-  "name": "readme-generator-",
+  "name": "readme-app",
   "version": "1.0.0",
-  "description": "This README generator made using nodejs is a command-line application designed to help users quickly create high-quality README files for their new projects.",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "DonielM",
-  "license": "MIT",
-  "dependencies": {
-    "fs": "^0.0.1-security",
-    "inquirer": "^9.2.16",
-    "path": "^0.12.7"
-  },
   "keywords": [],
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DonielM/node-README-generator-.git"
-  },
-  "bugs": {
-    "url": "https://github.com/DonielM/node-README-generator-/issues"
-  },
-  "homepage": "https://github.com/DonielM/node-README-generator-#readme"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6"
+  }
 }
