@@ -1,7 +1,7 @@
 # node-README-generator-
 
 ## Description
- This README generator made using nodejs is a command-line application designed to help users quickly create high-quality README files for their new projects. This project was made using the inquirer package alongside javascript to create prompts that take in user information to fill out a  README.
+ This README generator made using nodejs is a command-line application designed to help users quickly create high-quality README files for their new projects. This project was made using the inquirer package alongside javascript to create prompts that takes in user information to fill out a  README.
 
 ## Installation
 To install the README Generator, follow these steps:
