@@ -8,7 +8,7 @@ To install the README Generator, follow these steps:
 
 Clone the repository to your local machine using 
 ```
-git clone git@github.com:yourusername/node-README-generator.git
+git clone git@github.com:yourusername/node-README-generator-.git
 ```
 Navigate into the project directory and run the below command to install the necessary dependencies.
 ```
